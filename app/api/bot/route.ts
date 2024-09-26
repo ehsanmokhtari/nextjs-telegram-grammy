@@ -133,3 +133,7 @@ bot.catch(console.error.bind(console));
 // bot.start()
 
 export const POST = webhookCallback(bot, "std/http");
+
+// to set webhook run this code in terminal 
+// curl https://api.telegram.org/bot<TOKEN>/setWebhook?url=<DOMAIN>/api/bot
+// curl https://api.telegram.org/bot384264721:AAGZXsWEVtJUikH7wf0T7eC2-4G0ect21ys/setWebhook?url=https://nextjs-telegram-grammy.vercel.app/api/bot
